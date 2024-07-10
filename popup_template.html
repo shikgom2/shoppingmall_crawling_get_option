@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup Template</title>
+    <style>
+        #title{
+            color: black;
+            font-size: 50px;
+        }
+        #message{
+            color : black;
+            margin-bottom: 20px;
+        }
+        #popup {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: white;
+            border: 2px solid black;
+            z-index: 10000;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+        #close-button {
+            margin-top: 10px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div id="popup">
+        <p id="title">궁극의 식곰봇</p>
+        <br>
+        <p id="message"></p>
+        <img src="https://i.imgur.com/l4KiOdP.jpeg" width="500px" height="300px"/>
+
+        <br><br>
+        <button id="close-button">Close</button>
+    </div>
+</body>
+</html>
