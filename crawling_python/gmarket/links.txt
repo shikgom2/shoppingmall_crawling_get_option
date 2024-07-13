@@ -1,0 +1,14 @@
+별개의 상품
+----------------------------------------
+1. 단일 상품
+2. 단일 옵션
+3. 옵션1을 선택하면 옵션2가 선택해지는 구조
+4. 옵션1과 별개로 옵션2가 선택해지는 구조
+
+
+1. https://item.gmarket.co.kr/Item?goodscode=3892884051 (상품 여러개, 상품 선택 후 옵션1선택, 그 후 옵션2 선택)
+2. https://item.gmarket.co.kr/Item?goodscode=3893696534 (상품 여러개, 옵션X)
+3. https://item.gmarket.co.kr/Item?goodsCode=2610030599 (상품 여러개, 옵션X)
+4. https://item.gmarket.co.kr/Item?goodscode=3469266848 (상품 여러개, 상품에 따라 옵션이 다름, 있는 것도 있고 없는것도 있음)
+5. https://item.gmarket.co.kr/Item?goodscode=3556581324 (상품 X, 옵션만 있음)
+6. https://item.gmarket.co.kr/Item?goodscode=3333905409 (상품 여러개, 옵션X)

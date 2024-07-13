@@ -1,9 +1,12 @@
+// check console
+console.log(document.documentElement.outerHTML);
+
 // content.js
 window.addEventListener('load', () => {
     const urls = [
         'https://item.gmarket.co.kr/Item?',
-        'https://example.com/path',
-        'https://anotherexample.com/anotherpath'
+        'https://example.com/',
+        'https://example2.com'
     ];
     const type = [
         'Gmarket',
@@ -27,7 +30,7 @@ window.addEventListener('load', () => {
             .then(response => response.text())
             .then(data => {
                 //load html
-                let html = document.documentElement.outerHTML
+                let html = document.documentElement.outerHTML;
 
                 let popup = document.createElement('div');
                 popup.innerHTML = data;
