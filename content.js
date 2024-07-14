@@ -4,7 +4,7 @@ console.log(document.documentElement.outerHTML);
 // content.js
 window.addEventListener('load', () => {
     const urls = [
-        'https://item.gmarket.co.kr/Item?',
+        'https://item.gmarket.co.kr/Item1',
         'https://example.com/',
         'https://example2.com'
     ];
